@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <title>gallery</title>
+</head>
+<body> 
+    <section class="gallery min-vh-100 ">
+    <div class="text-center">
+        <div class="navbar w-50 mx-auto p-3 mb-3">
+          <a class="nav-link nav-link-ltr" href="index.html">Home</a>
+          <a class="nav-link nav-link-ltr" href="About.html">About</a>
+          <a class="nav-link nav-link-ltr" href="contact.html">Contact</a>
+          <a class="nav-link nav-link-ltr" href="gallery.html">My Gallery</a>
+        </div>
+    </div> 
+
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <img src="./img/my_1.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="./img/my_2.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="./img/my_3.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="./img/clg_2.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                  <video width="360" height="200" controls>
+                    <source src="./img/vid.mp4" type="video/mp4" class="gallery-item" alt="gallery">
+                  </video>
+                </div>
+                <div class="col">
+                    <img src="./img/clg_1.jpg" class="gallery-item" alt="gallery">
+                </div>
+                
+            </div>    
+        </div>
+    </section>
+    
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/pic.jpg" class="modal-img" alt="modal img">
+        </div>
+      </div>
+    </div>
+  </div>
+<script src = "./js/bootstrap.bundle.min.js"></script>
+<script src = "./js/main.js"></script>  
+</script>        
+</body>
+</html>
+.
